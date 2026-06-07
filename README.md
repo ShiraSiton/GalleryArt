@@ -101,9 +101,15 @@ myGallary/
 
 ## 📸 Screenshots
 
-> Add screenshots here to make your README more impressive.
->
-> *Home page, Gallery view, Artist profile, Account management, etc.*
+| Page | Preview |
+|------|---------|
+| **Home** | ![Home](screenshots/home.png) |
+| **Gallery** | ![Gallery](screenshots/gallery.png) |
+| **Artist Profile** | ![Artist Profile](screenshots/artist.png) |
+| **Account Management** | ![Account](screenshots/account.png) |
+| **Register** | ![Register](screenshots/register.png) |
+| **Login** | ![Login](screenshots/login.png) |
+| **Upload Artwork** | ![Upload](screenshots/upload.png) |
 
 ## 🤝 Contributing
 
