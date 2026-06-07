@@ -103,13 +103,14 @@ myGallary/
 
 | Page | Preview |
 |------|---------|
-| **Home** | ![Home](screenshots/home.png) |
-| **Gallery** | ![Gallery](screenshots/gallery.png) |
-| **Artist Profile** | ![Artist Profile](screenshots/artist.png) |
-| **Account Management** | ![Account](screenshots/account.png) |
-| **Register** | ![Register](screenshots/register.png) |
-| **Login** | ![Login](screenshots/login.png) |
-| **Upload Artwork** | ![Upload](screenshots/upload.png) |
+| **גלריה** | ![Gallery](screenshots/home.png) |
+| **חיפוש בגלריה** | ![Search image in gallery](screenshots/gallery.png) |
+| **עריכת פרופיל** | ![Edit Profile](screenshots/artist.png) |
+| **דף הבית (החלק התחתון)** | ![Home bottom](screenshots/account.png) |
+| **התחברות** | ![Login](screenshots/login-full.png) |
+| **הרשמה** | ![Register](screenshots/register.png) |
+| **פרופיל משתמש** | ![User Profile](screenshots/upload.png) |
+| **העלאת יצירה** | ![Upload Artwork](screenshots/upload-artwork.png) |
 
 ## 🤝 Contributing
 
