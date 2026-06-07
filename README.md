@@ -117,6 +117,12 @@ myGallary/
 
 Contributions, issues, and feature requests are welcome!
 
+## 👩‍🎨 Authors
+
+**Shira Siton** & **Sulamit Wolfson**
+
+*Academic project — 2025*
+
 ## 📄 License
 
 This project is for personal portfolio purposes.
