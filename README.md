@@ -101,28 +101,27 @@ myGallary/
 
 ## 📸 Screenshots
 
-| Page | Preview |
-|------|---------|
-| **Register** | ![Register](screenshots/register.png) |
-| **Login** | ![Login](screenshots/login-full.png) |
-| **Home Page (Top)** | ![Home page top](screenshots/login.png) |
-| **Home Page (Bottom)** | ![Home page bottom](screenshots/account.png) |
-| **Gallery** | ![Gallery](screenshots/home.png) |
-| **Search in Gallery** | ![Search in gallery](screenshots/gallery.png) |
-| **User Profile** | ![User profile](screenshots/upload.png) |
-| **Edit Profile** | ![Edit profile](screenshots/artist.png) |
-| **Upload Artwork** | ![Upload artwork](screenshots/upload-artwork.png) |
+| Register | Login |
+|:---:|:---:|
+| ![Register](screenshots/register.png) | ![Login](screenshots/login-full.png) |
 
-## 🤝 Contributing
+| Home Page (Top) | Home Page (Bottom) |
+|:---:|:---:|
+| ![Home top](screenshots/login.png) | ![Home bottom](screenshots/account.png) |
 
-Contributions, issues, and feature requests are welcome!
+| Gallery | Search in Gallery |
+|:---:|:---:|
+| ![Gallery](screenshots/home.png) | ![Search](screenshots/gallery.png) |
 
-## 👩‍🎨 Authors
+| User Profile | Edit Profile |
+|:---:|:---:|
+| ![User profile](screenshots/upload.png) | ![Edit profile](screenshots/artist.png) |
 
-**Shira Siton** & **Sulamit Wolfson**
+| Upload Artwork |
+|:---:|
+| ![Upload](screenshots/upload-artwork.png) |
 
-*Academic project — 2025*
+## Authors
 
-## 📄 License
-
-This project is for personal portfolio purposes.
+- **Shira Siton** & **Sulamit Wolfson**
+- Academic project — 2025
