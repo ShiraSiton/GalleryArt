@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>הרשמה - GalleryArt</title>
+  <link rel="stylesheet" href="/register/register.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>הרשמה ל-GalleryArt</h2>
+
+    <!-- תצוגת פרופיל תמונה עם תמונה ברירת מחדל -->
+    <div class="profile-pic-wrapper">
+      <img id="profilePreview" />
+    </div>
+
+    <form id="registerForm" enctype="multipart/form-data">
+      <label class="upload-label" for="profilePic">העלאת תמונת פרופיל</label>
+      <input type="file" id="profilePic" accept="image/*" />
+
+      <input type="text" name="fullName" placeholder="שם מלא" required />
+      <input type="text" name="userName" placeholder="שם משתמש" required />
+      <input type="email" name="email" placeholder="אימייל" required />
+      <textarea name="description" placeholder="תיאור קצר על האמנית"></textarea>
+      <input type="password" name="password" placeholder="סיסמה" required />
+
+      <button type="submit">הרשמה</button>
+    </form>
+
+    <div class="link">
+      כבר יש לך חשבון?
+      <a href="../login/login.html">התחברי</a>
+    </div>
+  </div>
+
+  <script src="/register/register.js"></script>
+</body>
+</html>
+

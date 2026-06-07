@@ -1,0 +1,84 @@
+body {
+  font-family: 'Assistant', sans-serif;
+}
+
+/* קלף יצירה */
+.art-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.art-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.art-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+/* מידע בכרטיס */
+.art-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.art-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.art-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+/* פרטי האומן */
+.artist-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.artist-profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #db2777;
+}
+
+.artist-name {
+  font-weight: 600;
+  color: #444;
+  font-size: 1rem;
+}
+
+/* לייק */
+.like-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.05rem;
+  color: #ec4899;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.like-btn:hover {
+  transform: scale(1.15);
+  color: #db2777;
+}

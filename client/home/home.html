@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>גלריית יצירות - דף הבית</title>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body class="text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-gray-200 sticky top-0 z-50 animate-bounce-slow">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="home.html" class="text-2xl font-bold text-pink-500 animate-pulse">🎨 GalleryArt</a>
+      <nav class="flex space-x-6 space-x-reverse text-lg items-center">
+        <a href="home.html" class="hover:text-pink-500 transition duration-200">דף הבית</a>
+        <a href="../gallery/gallery.html" class="hover:text-pink-500 transition duration-200">גלריה</a>
+        <!-- החשבון שלי -->
+        <a href="../account/account.html" class="flex items-center gap-2 hover:text-pink-500 transition duration-200">
+          <!-- אייקון פרופיל (Heroicons SVG) -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5.121 17.804A9.969 9.969 0 0112 15c2.486 0 4.735.896 6.879 2.804M15 10a3 3 0 11-6 0 3 3 0 016 0zM12 2a10 10 0 100 20 10 10 0 000-20z"/>
+          </svg>
+          <span>החשבון שלי</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white py-12 text-center border-b border-gray-200 animate-fade-in">
+    <h2 class="text-4xl font-bold text-pink-500 mb-4">ברוכה הבאה ל־GalleryArt</h2>
+    <p class="text-gray-600 text-lg mb-6">מרחב דיגיטלי ליצירה נשית – משתף, מלא השראה ומזמין אותך לפרוח</p>
+    <a href="../gallery/gallery.html" class="bg-pink-500 hover:bg-pink-600 text-white py-3 px-6 rounded-full text-lg transition duration-300">גלריית יצירות</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-white animate-fade-in">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold text-pink-500 mb-4">מה זה GalleryArt?</h2>
+      <p class="text-gray-700 text-lg">
+        פלטפורמה מודרנית, מעוררת השראה וקהילתית, בה כל אישה יוצרת יכולה להציג את כישרונה לעולם.
+        זה המקום בו אומנות, יצירתיות ולב נפגשים – עם אהבה, חיבורים ותמיכה.
+      </p>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section id="gallery" class="py-16 px-4 bg-gray-50 animate-fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-500 mb-12">יצירות פופולריות</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="../images/c1.jfif">
+        <div class="p-4">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-lg font-semibold">ציור בצבעי מים</h3>
+            <div class="like-btn">❤️ <span>128</span></div>
+          </div>
+          <p class="text-sm text-gray-500">מאת: שירה לוי</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="../images/c2.jfif">
+        <div class="p-4">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-lg font-semibold">עיצוב דיגיטלי בהשראת פרחים</h3>
+            <div class="like-btn">❤️ <span>102</span></div>
+          </div>
+          <p class="text-sm text-gray-500">מאת: תמר כהן</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="../images/c3.jfif">
+        <div class="p-4">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-lg font-semibold">רקמה בעבודת יד</h3>
+            <div class="like-btn">❤️ <span>87</span></div>
+          </div>
+          <p class="text-sm text-gray-500">מאת: נועה יצחק</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Extra Content Section Before Contact -->
+  <section class="py-20 bg-white animate-fade-in">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <img id="inspirationImage" src="../images/img1.png" alt="השראה אמנותית" class="rounded-lg shadow-lg transition duration-1000">
+      <div>
+        <h3 class="text-2xl font-bold text-pink-500 mb-4">השראה אמנותית שמרימה אותך</h3>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          ב־GalleryArt את לא רק משתפת את היצירה שלך – את גם סופגת השראה עמוקה מעולם של יצירתיות נשית שמבעירה את הלב ומעיפה את הדמיון. זו לא רק פלטפורמה. זו תנועה.
+        </p>
+        <ul class="list-disc pr-4 text-gray-600">
+          <li>גלי רעיונות חדשים דרך עיניהן של נשים אחרות</li>
+          <li>קבלי משוב בונה וחיובי מהקהילה</li>
+          <li>השתתפי באירועי אונליין ושיתופי פעולה</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-50 text-center animate-fade-in">
+    <h2 class="text-2xl font-bold text-pink-500 mb-4">רוצה לפרסם את היצירה שלך?</h2>
+    <p class="text-gray-600 mb-6">שלחי לנו את הפרטים וניצור איתך קשר בהקדם</p>
+    <a href="../upload/upload.html" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-full text-lg transition duration-300">להעלאת יצירה</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 text-center text-gray-500 text-sm animate-fade-in">
+    <p>© 2025 GalleryArt - כל הזכויות שמורות</p>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
+
