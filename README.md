@@ -113,7 +113,3 @@ myGallary/
 | **Edit Profile** | ![Edit profile](screenshots/artist.png) |
 | **Upload Artwork** | ![Upload artwork](screenshots/upload-artwork.png) |
 
-## Authors
-
-- **Shira Siton** & **Sulamit Wolfson**
-- Academic project — 2025
